@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<title>Title</title>
+<style>
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fafafa;
+}
+
+header {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 12px 0;
+}
+
+nav {
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.logo img {
+    height: 30px;
+}
+
+.search-bar input[type="text"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+    font-size: 14px;
+}
+
+.navigation-links a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+}
+
+.main {
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.post {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.user-info img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.post-image img {
+    width: 100%;
+}
+
+.post-actions button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.likes {
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.comments {
+    margin-bottom: 10px;
+}
+
+.comment {
+    margin-bottom: 5px;
+}
+
+.comment-username {
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.add-comment {
+    margin-top: 10px;
+}
+
+.add-comment input {
+    width: calc(100% - 70px);
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.add-comment button {
+    background-color: #3897f0;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+</style>
+</head>
+<body>
+    <header>
+        
+            <div class="navigation">
+                <a href="#">Home &#128526</a>
+                <a href="#">Explore &#128578</a>
+                <a href="profile.html">Profile &#128525</a>
+                <a href="#">Settings &#127760</a>
+            </div>
+            <nav>
+                
+        </nav>
+    </header>
+
+    <main>
+        <section class="post">
+            <div class="user-info">
+                <img src="papa.jpg" alt="User Avatar">
+                <span class="username">kabaddi_lover_gopi</span>
+            </div>
+            <div class="post-image">
+                <img src="download.jfif" alt="Post Image">
+            </div>
+            <div class="post-actions">
+                <button><i class="far fa-heart text-danger"></i></button>
+                <button><i class="far fa-comment"></i></button>
+                <button><i class="far fa-paper-plane"></i></button>
+            </div>
+            <div class="likes">
+                <span><strong>100</strong> likes</span>
+            </div>
+            <div class="comments">
+                <div class="comment">
+                    <span class="comment-username">friend1</span> This looks amazing!
+                </div>
+                <div class="comment">
+                    <span class="comment-username">friend2</span> &#128525
+                </div>
+            </div>
+            <div class="add-comment">
+                <input type="text" placeholder="Add a comment...">
+                <button class="btn btn-info">Post</button>
+            </div>
+        </section>
+    </main>
+
+    
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+</body>
+</html>
